@@ -1,0 +1,20 @@
+REM Copiar salida de ipconfig y pegarla en Notepad
+DEFAULT_DELAY 0
+GUI r
+DELAY 250
+STRING cmd
+ENTER
+DELAY 900
+STRING ipconfig
+ENTER
+DELAY 1200
+CTRL a
+DELAY 100
+CTRL c
+DELAY 150
+GUI r
+DELAY 250
+STRING notepad
+ENTER
+DELAY 900
+CTRL v

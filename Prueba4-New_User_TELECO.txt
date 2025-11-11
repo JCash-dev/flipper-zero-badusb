@@ -1,0 +1,36 @@
+REM DELAY inicial más largo para garantizar estabilidad
+DELAY 3000
+
+REM Abrir ejecutar con sintaxis correcta
+GUI r
+DELAY 1000
+
+REM Abrir CMD como administrador - SINTAXIS CORREGIDA
+STRING cmd
+DELAY 500
+CTRL-SHIFT ENTER
+DELAY 4000
+
+REM Manejar UAC si aparece (común en entornos de laboratorio)
+ALT y
+DELAY 3000
+
+REM Crear usuario con contraseña COMPATIBLE con cualquier layout
+STRING net user testuser Password123 /add /fullname:"UTS_TELECO" /comment:"System Account"
+ENTER
+DELAY 2000
+
+REM Agregar a grupo administradores
+STRING net localgroup administradores testuser /add  
+ENTER
+DELAY 2000
+
+REM Verificar creación
+STRING net user testuser
+ENTER
+DELAY 2000
+
+REM Cerrar CMD
+STRING exit
+ENTER
+DELAY 1000

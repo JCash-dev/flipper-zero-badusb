@@ -1,0 +1,8 @@
+REM Payload Hola Mundo 
+GUI r
+DELAY 100
+STRING notepad.exe
+ENTER
+DELAY 100
+STRING Hola mundo, somos Flipper Project y este es un ejemplo.
+

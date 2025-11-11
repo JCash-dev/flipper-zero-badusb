@@ -1,0 +1,9 @@
+REM PowerShell sin comillas en la URL
+DEFAULT_DELAY 0
+GUI r
+DELAY 500
+STRING powershell
+ENTER
+DELAY 1500
+STRING Start-Process chrome.exe -ArgumentList https://www.uts.edu.co/sitio/ingenieria-de-telecomunicaciones/
+ENTER
