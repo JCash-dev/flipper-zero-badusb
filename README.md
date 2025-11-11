@@ -1,4 +1,4 @@
-# flipper-zero-badusb
+# Flipper-Zero-BadUSB
 Proyecto académico para grado de las Unidades Tecnologicas de Santander, enfocado en ciberseguridad y demostraciones ética de ataques BadUSB con Flipper Zero. Solo para fines educativos y con autorización.
 
 
