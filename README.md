@@ -1,5 +1,5 @@
 # flipper-zero-badusb
-Proyecto académico de ciberseguridad: Demostración ética de ataques BadUSB con Flipper Zero y medidas de mitigación. Solo para fines educativos y con autorización.
+Proyecto académico para grado de las Unidades Tecnologicas de Santander, enfocado en ciberseguridad y demostraciones ética de ataques BadUSB con Flipper Zero. Solo para fines educativos y con autorización.
 
 
 #  Política de Uso Ético
